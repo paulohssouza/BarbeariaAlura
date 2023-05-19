@@ -8,6 +8,7 @@ body {
 
 .main {
     background: #cccccc;
+    padding: 30px;
 }
 
 h1 {
@@ -32,8 +33,20 @@ h2 {
 
 .benefits {
     background: #ffffff;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
 }
 
 .items {
     font-style: italic;
+}
+
+#benefits {
+    width: 50%;
 }
