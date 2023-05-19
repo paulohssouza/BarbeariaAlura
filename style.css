@@ -1,10 +1,17 @@
 body {
     background: #cccccc;
-    text-align: center;
 }
 
 #banner {
     width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 #missao {
@@ -13,4 +20,8 @@ body {
 
 em strong {
     color: #ff0000;
+}
+
+.items {
+    font-style: italic;
 }
