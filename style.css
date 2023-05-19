@@ -1,9 +1,13 @@
 body {
-    background: #cccccc;
+
 }
 
 #banner {
     width: 100%;
+}
+
+.main {
+    background: #cccccc;
 }
 
 h1 {
@@ -20,6 +24,14 @@ p {
 
 em strong {
     color: #ff0000;
+}
+
+h2 {
+    text-align: center;
+}
+
+.benefits {
+    background: #ffffff;
 }
 
 .items {
