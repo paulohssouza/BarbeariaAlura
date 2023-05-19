@@ -6,12 +6,17 @@ body {
     width: 100%;
 }
 
+h1 {
+    text-align: left;
+    padding-left: 20px;
+}
+
 .main {
     background: #cccccc;
     padding: 30px;
 }
 
-h1 {
+.titles {
     text-align: center;
 }
 
@@ -25,10 +30,6 @@ p {
 
 em strong {
     color: #ff0000;
-}
-
-h2 {
-    text-align: center;
 }
 
 .benefits {
