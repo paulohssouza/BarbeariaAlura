@@ -7,6 +7,16 @@ h1 {
     padding-left: 20px;
 }
 
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 .main {
     background: #cccccc;
     padding: 30px;
@@ -33,7 +43,7 @@ em strong {
     padding: 20px;
 }
 
-ul {
+.benefits ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;
@@ -41,6 +51,7 @@ ul {
 }
 
 .items {
+    font-size: 20px;
     font-style: italic;
 }
 
