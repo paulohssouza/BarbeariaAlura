@@ -12,7 +12,7 @@
     <header>
         <div class="boxHeader">
             <h1>
-                <img src="image/logo.png"/>
+                <img src="image/logo.png" alt="Logo da barbearia Alura"/>
             </h1>
             <nav>
                 <ul>
@@ -38,8 +38,8 @@
             <label for="message">Mensagem:</label>
             <textarea class="standard-input" id="message" cols="70" rows="10" required></textarea>
 
-            <div>
-                <p>Como prefere nosso contato?</p>
+            <fieldset>
+                <legend>Como prefere nosso contato?</legend>
 
                 <label for="radio-email">
                     <input id="radio-email" name="preference-contact" type="radio" value="email"/>
@@ -55,16 +55,16 @@
                     <input checked id="radio-whatsapp" name="preference-contact" type="radio" value="whatsapp"/>
                     Whatsapp
                 </label>
-            </div>
+            </fieldset>
 
-            <div>
-                <p>Qual horário prefere ser atendido?</p>
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
                 <select>
                     <option>Manhã</option>
                     <option>Tarde</option>
                     <option>Noite</option>
                 </select>
-            </div>
+            </fieldset>
 
             <label class="checkbox" for="newsletter">
                 <input checked id="newsletter" type="checkbox"/> Gostaria de receber nossas novidades?
@@ -75,7 +75,7 @@
     </main>
 
     <footer>
-        <img src="image/logo-branco.png"/>
+        <img src="image/logo-branco.png" alt="Logo da barbearia Alura"/>
         <p class="copyrigth">&copy; Copyrigth Barbearia Alura - 2023</p>
     </footer>
 
