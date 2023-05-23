@@ -28,6 +28,13 @@ nav a {
     text-transform: uppercase;
 }
 
+nav a:hover {
+    color: #ff0000;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+
+}
+
 .products {
     margin: 0 auto;
     padding: 50px 0;
