@@ -1,5 +1,18 @@
 header {
     background: #bbbbbb;
+    padding: 20px;
+}
+
+.boxHeader {
+    margin: 0 auto;
+    position: relative;
+    width: 940px;
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+    top: 110px;
 }
 
 nav li {
