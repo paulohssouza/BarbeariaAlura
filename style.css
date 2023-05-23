@@ -1,60 +1,96 @@
-#banner {
-    width: 100%;
-}
-
-h1 {
-    text-align: left;
-    padding-left: 20px;
-}
-
-h2 {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-h3 {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.main {
-    background: #cccccc;
-    padding: 30px;
-}
-
-.titles {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-#missao {
-    font-size: 20px;
-}
-
-em strong {
-    color: #ff0000;
-}
-
-.benefits {
-    background: #ffffff;
+header {
+    background: #bbbbbb;
     padding: 20px;
 }
 
-.benefits ul {
+.boxHeader {
+    margin: 0 auto;
+    position: relative;
+    width: 940px;
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+    top: 110px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #ff0000;
+}
+
+.products {
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 940px;
+}
+
+.products li {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
     display: inline-block;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    text-align: center;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    width: 30%;
 }
 
-.items {
-    font-size: 20px;
-    font-style: italic;
+.products li:hover {
+    border: 2px solid #ff0000;
+    color: #ff0000;
 }
 
-#benefits {
-    width: 50%;
+.products li:active {
+    border: 6px solid #ff0000;
+}
+
+.products li:hover h2 {
+    font-size: 34px;
+}
+
+.products h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.products li:hover .product-description {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.product-description {
+    font-size: 18px;
+}
+
+.products-price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background-image: url(image/bg.jpg);
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.copyrigth {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
 }
