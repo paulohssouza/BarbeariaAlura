@@ -82,3 +82,9 @@ nav a:hover {
     font-weight: bold;
     margin-top: 10px;
 }
+
+footer {
+    background-image: url(image/bg.jpg);
+    padding: 40px 0px;
+    text-align: center;
+}
