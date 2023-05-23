@@ -27,31 +27,37 @@
     <main>
         <form>
             <label for="name">Nome e sobrenome:</label>
-            <input id="name" type="text"/>
+            <input class="standard-input" id="name" type="text"/>
 
             <label for="email">Email:</label>
-            <input id="email" type="email"/>
+            <input class="standard-input" id="email" type="email"/>
 
             <label for="phone">Telefone:</label>
-            <input id="phone" type="tel"/>
+            <input class="standard-input" id="phone" type="tel"/>
 
             <label for="message">Mensagem:</label>
-            <textarea id="message" cols="70" rows="10"></textarea>
+            <textarea class="standard-input" id="message" cols="70" rows="10"></textarea>
 
             <div>
                 <p>Como prefere nosso contato?</p>
 
-                <label for="radio-email">Email</label>
-                <input id="radio-email" name="preference-contact" type="radio" value="email"/>
+                <label for="radio-email">
+                    <input id="radio-email" name="preference-contact" type="radio" value="email"/>
+                    Email
+                </label>
 
-                <label for="radio-phone">Telefone</label>
-                <input id="radio-phone" name="preference-contact" type="radio" value="telefone"/>
+                <label for="radio-phone">
+                    <input id="radio-phone" name="preference-contact" type="radio" value="telefone"/>
+                    Telefone
+                </label>
 
-                <label for="radio-whatsapp">Whatsapp</label>
-                <input id="radio-whatsapp" name="preference-contact" type="radio" value="whatsapp"/>
+                <label for="radio-whatsapp">
+                    <input id="radio-whatsapp" name="preference-contact" type="radio" value="whatsapp"/>
+                    Whatsapp
+                </label>
             </div>
 
-            <label for="newsletter">
+            <label class="checkbox" for="newsletter">
                 <input id="newsletter" type="checkbox"/> Gostaria de receber nossas novidades?
             </label>
 
