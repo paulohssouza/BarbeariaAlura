@@ -130,11 +130,13 @@ form label, form legend {
     font-size: 18px;
     font-weight: bold;
     padding: 15px 0px;
-    transition: 1s;
+    transition: 1s all;
     width: 40%;
 }
 
 .submit:hover {
     background: #cccccc;
     color: #000000;
+    transform: scale(1.2) rotate(360deg);
 }
+
