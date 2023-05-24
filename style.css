@@ -9,6 +9,29 @@ header {
     width: 940px;
 }
 
+.banner {
+    width: 100%;
+}
+
+.main p {
+    margin: 0 0 1em;
+}
+
+.main strong {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.title-main {
+    font-size: 2em;
+    margin: 0 0 1em;
+    text-align: center;
+}
+
+.img-benefits {
+    width: 60%;
+}
+
 main {
     width: 940px;
     margin: 0 auto;
@@ -138,5 +161,20 @@ form label, form legend {
     background: #cccccc;
     color: #000000;
     transform: scale(1.2) rotate(360deg);
+}
+
+table {
+    margin: 20px 0px 40px;
+}
+
+thead {
+    background: #555555;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
 
