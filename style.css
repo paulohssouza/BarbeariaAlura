@@ -39,6 +39,15 @@ header {
     width: 120px;
 }
 
+.map {
+    padding: 3em 0;
+}
+
+.map p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
 .img-benefits {
     width: 60%;
 }
