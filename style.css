@@ -120,3 +120,21 @@ form label, form legend {
 .checkbox {
     margin: 20px 0;
 }
+
+.submit {
+    background: url(image/bg.jpg);
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0px;
+    transition: 1s;
+    width: 40%;
+}
+
+.submit:hover {
+    background: #cccccc;
+    color: #000000;
+}
