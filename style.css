@@ -85,6 +85,10 @@ header {
     font-weight: bold;
 }
 
+.items::before {
+    content: " ★";
+}
+
 .img-benefits {
     width: 60%;
 }
