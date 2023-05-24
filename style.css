@@ -262,3 +262,59 @@ td, th {
     padding: 8px 15px;
 }
 
+@media screen and (max-width: 480px) {
+    .boxHeader, .main, .benefits-content, .iframe-map {
+        width: auto;
+    }
+
+    .iframe-video {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .benefits-list, .img-benefits {
+        width: 100%;
+    }
+
+    .products-main {
+        width: 100%;
+    }
+
+    .products {
+        width: auto;
+    }
+
+    .products li {
+        display: block;
+        margin: 5% 15%;
+        width: 70%;
+    }
+
+    .main-form {
+        width: 100%;
+    }
+
+    form {
+        margin: 5% 5%;
+        padding: 5%;
+    }
+
+    .standard-input {
+        margin: 5px 0;
+    }
+
+    table {
+        margin: 5%;
+    }
+
+    .submit {
+        width: 60%;
+    }
+}
